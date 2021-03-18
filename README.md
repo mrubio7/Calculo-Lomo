@@ -1,2 +1,5 @@
-# Calcular-lomo-libros
-Programa para calcular el lomo de los libros
+# About
+
+This is a own simple project to know how to use QTFramework.
+
+icon design: [Double-J](http://www.doublejdesign.co.uk) 
