@@ -7,8 +7,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    ui->papel->addItem("Estucado"); // INDEX 0
-    ui->papel->addItem("Offset");   // INDEX 1
+    ui->papel->addItem("Estucado");         // INDEX 0
+    ui->papel->addItem("Offset");           // INDEX 1
+    ui->papel->addItem("Offset volumen");   //INDEX 2
 
     ui->encuadernacion->addItem("Hilo");    // INDEX 0
     ui->encuadernacion->addItem("Fresado"); // INDEX 1
@@ -45,12 +46,19 @@ void MainWindow::on_pushButton_clicked()
         else
             vol = 0.95;
     }
-    else
+    else if (tmpPaper == 1)
     {
         if (tmpSewing == 0)
             vol = 1.26;
         else
             vol = 1.25;
+    }
+    else
+    {
+        if (tmpSewing == 0)
+            vol = 1.51;
+        else
+            vol = 1.5;
     }
     grm = tmpGrm.toInt();
     sheets = tmpPags.toInt() / 2;
