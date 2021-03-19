@@ -66,7 +66,7 @@ void MainWindow::on_pushButton_clicked()
     result = (sheets * grm * vol) / 1000;
     final = result.toInt();
 
-    if (pags % 4 != 0)
+    if (pags % 4 != 0 && tmpSewing == 0)
     {
         ui->resultado->setText("Las páginas deben ser multiplo de 4");
     }
