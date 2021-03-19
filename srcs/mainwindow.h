@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <stdlib.h>
 #include <QMainWindow>
-#include <math.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

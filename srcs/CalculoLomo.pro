@@ -18,6 +18,8 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
+CONFIG += app_bundle
+
 ICON = book.icns
 
 # Default rules for deployment.
