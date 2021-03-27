@@ -1,6 +1,6 @@
 # About
 
-This is a own simple project to know how to use QTFramework.
+This is a own simple project to know how to use Qt Framework.
 
 ![CalcularLomo](./Screenshot.png)
 
