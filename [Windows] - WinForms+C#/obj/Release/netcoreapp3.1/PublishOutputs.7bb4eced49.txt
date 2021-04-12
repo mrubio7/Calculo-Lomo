@@ -1,0 +1,5 @@
+C:\Users\manu_\Desktop\Cosas\Programación\OK\CalculoLomo.exe
+C:\Users\manu_\Desktop\Cosas\Programación\OK\CalculoLomo.dll
+C:\Users\manu_\Desktop\Cosas\Programación\OK\CalculoLomo.deps.json
+C:\Users\manu_\Desktop\Cosas\Programación\OK\CalculoLomo.runtimeconfig.json
+C:\Users\manu_\Desktop\Cosas\Programación\OK\CalculoLomo.pdb
