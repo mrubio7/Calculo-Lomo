@@ -1,7 +1,7 @@
 # About
 
-This is a own simple project to know how to use Qt Framework.
+This is a own simple project in ASP.NET and C#.
+
+Link: https://calculadoradelomo.azurewebsites.net/Index.aspx
 
 ![CalcularLomo](./Calculadora.jpg)
-
-icon design: [Double-J](http://www.doublejdesign.co.uk) 
