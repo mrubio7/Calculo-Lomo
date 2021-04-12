@@ -45,6 +45,10 @@ namespace WebCalculoLomo
 
 		protected void OnClick_Calcular(object sender, EventArgs e)
 		{
+			if (TextBox_NPag.Text == "")
+				TextBox_NPag.Text = "0";
+			if (TextBox_Gramaje.Text == "")
+				TextBox_Gramaje.Text = "0";
 			if (ulong.Parse(TextBox_NPag.Text) > 10000)
 				Result.Text = "¿¡CÓMO QUE " + ulong.Parse(TextBox_NPag.Text) + " PÁGINAS!? 😅";
 			else if (ulong.Parse(TextBox_Gramaje.Text) > 1000)
